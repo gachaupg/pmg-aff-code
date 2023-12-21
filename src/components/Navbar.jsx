@@ -29,6 +29,15 @@ const Navbar = () => {
       <div className="navbar">
         {width <= 800 ? (
           <>
+            <div className="logo">
+              <Link style={{ cursor: "pointer" }} className="link" to="/">
+                <img
+                  width={100}
+                  src="https://res.cloudinary.com/pitz/image/upload/v1703157970/WhatsApp_Image_2023-12-21_at_13.34.14_mcsjd2.jpg"
+                  alt=""
+                />
+              </Link>
+            </div>
             {menu ? (
               <ImCross
                 size={36}
@@ -45,13 +54,11 @@ const Navbar = () => {
           </>
         ) : (
           <div className="logo">
-            <Link style={{cursor:'pointer'}} className="link" to="/">
-              <h4>
-                PMG{" "}
-                <span className="span" style={{ color: "brown" }}>
-                  AFF
-                </span>
-              </h4>
+            <Link style={{ cursor: "pointer" }} className="link" to="/">
+              <img
+                src="https://res.cloudinary.com/pitz/image/upload/v1703157970/WhatsApp_Image_2023-12-21_at_13.34.14_mcsjd2.jpg"
+                alt=""
+              />
             </Link>
           </div>
         )}
@@ -72,12 +79,19 @@ const Navbar = () => {
         )}
 
         <div className="buttons">
-          {width <= 800 ? "" :
-          <Link to='/register'>
-          <button className="btn1">Affiliate join</button>
+          {width <= 800 ? (
+            <a href="https://backend.zintle-aff.com/register.php">
+              <button style={{marginRight:'0.5rem'}} className="btn1">Affiliate join</button>
+            </a>
+          ) : (
+            <>
+             <a href="https://backend.zintle-aff.com/register.php">
+              <button style={{marginRight:'0.5rem'}} className="btn1">Affiliate join</button>
+            </a>
+                        <button className="btn2">Advertiser join</button>
 
-</Link>}
-          <button className="btn2">Advertiser join</button>
+            </>
+          )}
         </div>
       </div>
       {width <= 800 ? (

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -11,9 +10,9 @@ const Hero = () => {
           promote. All you need to do is signup for free and get started
         </h4>
         <div className="hero-btns">
-          <Link to="/register">
-            <button className="btn1">Affiliate join</button>
-          </Link>
+        <a href="https://backend.zintle-aff.com/register.php">
+              <button style={{marginRight:'0.5rem'}} className="btn1">Affiliate join</button>
+            </a>
           <button className="btn2">Advertiser join</button>
         </div>
       </div>

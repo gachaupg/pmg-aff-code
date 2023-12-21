@@ -62,8 +62,9 @@ const Monitize = () => {
           </div>
           
         </div><div className="hero-btns">
-        <button className="btn1">Join  Today</button>
-        <button className="btn2">Learn More</button>
+        <a href="https://backend.zintle-aff.com/register.php">
+              <button style={{marginRight:'0.5rem'}} className="btn1">Join today</button>
+            </a>        <button className="btn2">Learn More</button>
       </div>
       </div>
       <div className="monitize-video">
