@@ -13,9 +13,9 @@ export default function App() {
           If you have any questions or need assistance in setting up an account
         </h5>
         <div>
-        <p><MdOutlineEmail size={36}/> help@gmail.com</p>
-        <p><IoLogoSkype size={36}/> skype</p>
-        <p><CiLocationOn size={36}/> Lodon , uk</p>
+        <p><MdOutlineEmail size={36}/> Support@pmg-aff.com</p>
+        <p><IoLogoSkype size={36}/> skype live:.cid.568a8c0c026efa4f</p>
+        <p><CiLocationOn size={36}/> Location Moscow , Ru</p>
         </div>
       </div>
       <form
