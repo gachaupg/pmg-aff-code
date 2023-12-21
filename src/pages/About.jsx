@@ -5,7 +5,7 @@ const About = () => {
       <div className="main-about1">
         <div className="about-text">
           <p>
-            MediaAhead is a performance-based CPA (cost-per-action) network
+            PMG-AFF is a performance-based CPA (cost-per-action) network
             specializing in remarketing and maximizing ROI for both advertisers
             and affiliates.</p><p>
              With over 10 years of experience in affiliate
